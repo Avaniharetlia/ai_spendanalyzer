@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - ShopSutra</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">🛍 ShopSutra</div>
+    <ul>
+       <li><a href="../templates/index.html">Home</a></li>
+        <li><a href="../templates/dashboard.html">Dashboard</a></li>
+        <li><a href="../templates/add_expense.html">Add Purchase</a></li>
+        <li><a href="../templates/cart_compare.html">Cart Compare</a></li>
+        <li><a href="../templates/trend_insights.html">Trend Insights</a></li>
+    </ul>
+</nav>
+
+
+<div class="form-container">
+    <h2>Create Your Account</h2>
+
+    <form method="POST">
+        <input type="text" name="username" placeholder="Enter Username" required>
+        <input type="password" name="password" placeholder="Enter Password" required>
+        <button type="submit">Register</button>
+    </form>
+
+    <p style="margin-top:15px;">
+        Already have an account? 
+        <a href="login.html" style="color:#ffd166; text-decoration:none;">
+            Login here
+        </a>
+    </p>
+</div>
+
+</body>
+</html>
